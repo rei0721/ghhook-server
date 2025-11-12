@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// 创建新的监听器
-	w, err := ghwatcher.New(":8080", "github.com/kawaiirei0/ghwatcher-demo")
+	w, err := ghwatcher.New(":6001", "qwq")
 	if err != nil {
 		log.Fatal(err)
 	}
