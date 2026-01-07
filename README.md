@@ -21,3 +21,9 @@ ngrok 会给你一个公网 URL，比如 https://abc123.ngrok.io，然后在 Git
 Payload URL: https://abc123.ngrok.io/webhook
 3. 或者使用轮询模式（不需要公网 IP）
 修改你的代码使用轮询模式：
+
+# Deploy
+
+```bash
+curl -sSL https://raw.githubusercontent.com/rei0721/ghhook-server/main/deploy.sh | bash
+```

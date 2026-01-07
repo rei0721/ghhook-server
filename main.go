@@ -28,5 +28,5 @@ func main() {
 	})
 
 	// 启动监听器
-	w.Run()
+	hook.Run()
 }
