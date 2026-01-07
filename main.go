@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/kawaiirei0/ghwatcher"
+	"github.com/rei0721/ghhook"
 )
 
 func main() {
